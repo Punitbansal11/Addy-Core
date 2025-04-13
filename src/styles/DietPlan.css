@@ -1,0 +1,91 @@
+/* DietPlan.css */
+
+/* ========== LIGHT MODE ========== */
+:root {
+    --bg-color: rgba(255, 255, 255, 0.95);
+    --text-color: #222;
+    --section-bg: #f9f9f9;
+    --border-color: #8bc34a;
+    --shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* ========== DARK MODE ========== */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-color: rgba(30, 30, 30, 0.95);
+      --text-color: #f1f1f1;
+      --section-bg: rgba(60, 60, 60, 0.7);
+      --border-color: #aed581;
+      --shadow: 0 8px 24px rgba(255, 255, 255, 0.05);
+    }
+  }
+  
+  .diet-plan-container {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--bg-color);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    color: var(--text-color);
+  }
+  
+  .diet-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    font-weight: 700;
+  }
+  
+  .meal-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-left: 5px solid var(--border-color);
+    background: var(--section-bg);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  }
+  
+  .meal-section h2 {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-bottom: 0.8rem;
+  }
+  
+  ul {
+    padding-left: 1.2rem;
+  }
+  
+  li {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+  }
+  
+  .kcal {
+    font-size: 0.9rem;
+    color: gray;
+    margin-left: 0.5rem;
+  }
+  
+  .tip {
+    font-style: italic;
+    font-size: 0.95rem;
+    margin-top: 0.7rem;
+    color: var(--text-color);
+  }
+  
+  .cheat {
+    border-left: 5px solid #ff9800;
+  }
+  
+  .summary {
+    margin-top: 2rem;
+    background: var(--section-bg);
+    padding: 1.2rem;
+    border-radius: 12px;
+    border-left: 5px solid #607d8b;
+  }
+  

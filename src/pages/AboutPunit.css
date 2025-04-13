@@ -1,0 +1,104 @@
+/* AboutPunit.css */
+.about-punit-container {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: linear-gradient(to right, #f0f0f0, #fff);
+  }
+  
+  .about-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .profile-image-container {
+    flex: 0 0 150px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-image {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .developer-info {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .developer-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .developer-description {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+    transition: all 0.3s ease;
+  }
+  
+  .about-content p:hover {
+    color: #0056b3;
+    font-weight: bold;
+  }
+  
+  .aditi-journey {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aditi-journey-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  .aditi-journey-title:hover {
+    color: #007bff;
+  }
+  
+  @media (max-width: 768px) {
+    .about-header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .profile-image-container {
+      margin-bottom: 20px;
+    }
+  
+    .developer-info {
+      text-align: center;
+      margin-left: 0;
+    }
+  }
+  
