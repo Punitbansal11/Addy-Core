@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Addy-Core/static/css/main.2e0e70c1.css",
-    "main.js": "/Addy-Core/static/js/main.1ac9794e.js",
+    "main.js": "/Addy-Core/static/js/main.e2f8038d.js",
     "static/js/453.c89a3a10.chunk.js": "/Addy-Core/static/js/453.c89a3a10.chunk.js",
     "static/media/punit-formal.png": "/Addy-Core/static/media/punit-formal.4bb8bd384773ea3885b8.png",
     "static/media/aditi-about.png": "/Addy-Core/static/media/aditi-about.30147b305dce3d554e28.png",
@@ -14,11 +14,11 @@
     "static/media/patrick-hand-vietnamese-400-normal.woff": "/Addy-Core/static/media/patrick-hand-vietnamese-400-normal.de690160000cb74f384d.woff",
     "index.html": "/Addy-Core/index.html",
     "main.2e0e70c1.css.map": "/Addy-Core/static/css/main.2e0e70c1.css.map",
-    "main.1ac9794e.js.map": "/Addy-Core/static/js/main.1ac9794e.js.map",
+    "main.e2f8038d.js.map": "/Addy-Core/static/js/main.e2f8038d.js.map",
     "453.c89a3a10.chunk.js.map": "/Addy-Core/static/js/453.c89a3a10.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e0e70c1.css",
-    "static/js/main.1ac9794e.js"
+    "static/js/main.e2f8038d.js"
   ]
 }
