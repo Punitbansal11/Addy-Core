@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Addy-Core/static/css/main.6e242d33.css",
-    "main.js": "/Addy-Core/static/js/main.2eb9c085.js",
+    "main.css": "/Addy-Core/static/css/main.2e0e70c1.css",
+    "main.js": "/Addy-Core/static/js/main.a8ba5070.js",
     "static/js/453.c89a3a10.chunk.js": "/Addy-Core/static/js/453.c89a3a10.chunk.js",
     "static/media/punit-formal.png": "/Addy-Core/static/media/punit-formal.4bb8bd384773ea3885b8.png",
     "static/media/aditi-about.png": "/Addy-Core/static/media/aditi-about.30147b305dce3d554e28.png",
@@ -13,12 +13,12 @@
     "static/media/patrick-hand-vietnamese-400-normal.woff2": "/Addy-Core/static/media/patrick-hand-vietnamese-400-normal.8734675461f99301cafd.woff2",
     "static/media/patrick-hand-vietnamese-400-normal.woff": "/Addy-Core/static/media/patrick-hand-vietnamese-400-normal.de690160000cb74f384d.woff",
     "index.html": "/Addy-Core/index.html",
-    "main.6e242d33.css.map": "/Addy-Core/static/css/main.6e242d33.css.map",
-    "main.2eb9c085.js.map": "/Addy-Core/static/js/main.2eb9c085.js.map",
+    "main.2e0e70c1.css.map": "/Addy-Core/static/css/main.2e0e70c1.css.map",
+    "main.a8ba5070.js.map": "/Addy-Core/static/js/main.a8ba5070.js.map",
     "453.c89a3a10.chunk.js.map": "/Addy-Core/static/js/453.c89a3a10.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e242d33.css",
-    "static/js/main.2eb9c085.js"
+    "static/css/main.2e0e70c1.css",
+    "static/js/main.a8ba5070.js"
   ]
 }
