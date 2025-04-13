@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Welcome to ADDY CORE</title>
+    <style>
+      body {
+        background: #0d0d0d;
+        color: #fff;
+        font-family: 'Segoe UI', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        text-align: center;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 0.5em;
+      }
+
+      p {
+        font-size: 1.2rem;
+        max-width: 400px;
+        margin-bottom: 2em;
+        color: #ccc;
+      }
+
+      input {
+        padding: 10px;
+        font-size: 1rem;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        width: 250px;
+        text-align: center;
+      }
+
+      button {
+        margin-top: 1em;
+        padding: 10px 20px;
+        font-size: 1rem;
+        background-color: #ff5e5e;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        color: white;
+        transition: background 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #e74c3c;
+      }
+
+      .container {
+        animation: fadeIn 1s ease;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to ADDY CORE</h1>
+      <p>This page is protected. Please enter the password to continue.</p>
+      <input type="password" id="password" placeholder="Enter Password" />
+      <br />
+      <button onclick="checkPassword()">Enter</button>
+    </div>
+
+    <script>
+      function checkPassword() {
+        var correctPassword = "ADDY-CORE-WEBSITE";
+        var userInput = document.getElementById("password").value;
+
+        if (userInput === correctPassword) {
+          window.location.href = "https://punitbansal11.github.io/Addy-Core/home";
+        } else {
+          alert("Incorrect password. Redirecting to Google.");
+          window.location.href = "https://www.google.com";
+        }
+      }
+    </script>
+  </body>
+</html>
